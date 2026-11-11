@@ -1,0 +1,33 @@
+{
+  "name": "@keshavsoft/json-api-builder-create-app",
+  "version": "1.0.0",
+  "description": "Create app and hook app strategies stage for JSON API Builder.",
+  "type": "module",
+  "main": "./src/v1/index.js",
+  "exports": {
+    ".": "./src/v1/index.js",
+    "./v1": "./src/v1/index.js",
+    "./create-app": "./src/v1/create-app.js",
+    "./hook-app-strategies": "./src/v1/hook-app-strategies.js",
+    "./start-server": "./src/v1/start-server.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "check": "node --check ./src/v1/index.js",
+    "test": "node --test ./test/v1/index.test.js",
+    "prepublishOnly": "npm run check && npm test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.6"
+  }
+}
