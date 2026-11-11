@@ -29,5 +29,15 @@
   },
   "dependencies": {
     "@hono/node-server": "^1.19.6"
-  }
+  },
+  "license": "MIT",
+  "author": "KeshavSoft",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keshavsoft/json-api-builder-create-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keshavsoft/json-api-builder-create-app/issues"
+  },
+  "homepage": "https://github.com/keshavsoft/json-api-builder-create-app#readme"
 }
