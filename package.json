@@ -1,5 +1,5 @@
 {
-  "name": "@keshavsoft/json-api-builder-create-app",
+  "name": "json-api-builder-create-app",
   "version": "1.0.0",
   "description": "Create app and hook app strategies stage for JSON API Builder.",
   "type": "module",
